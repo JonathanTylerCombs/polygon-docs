@@ -1,0 +1,7 @@
+az ad sp create-for-rbac --name "myApp" --role contributor --scopes /subscriptions/<subscription-id>/resourceGroups/<group-name>/providers/Microsoft.Web/sites/<app-name> --json-authcurl -X GET 'https://www.oklink.com/api/v5/explorer/blockchain/summary' \
+  --header 'Ok-Access-Key:你的APIkey' \
+  --header 'Content-type: application/json'
+GET /api/v5/tracker/kyt/chain-list
+GET /api/v5/tracker/kyt/chain-list
+Congratulations, your extension view "Control-M Jobs-As-Code" is now active!
+Assigned AAPI Environment: "bdc"
